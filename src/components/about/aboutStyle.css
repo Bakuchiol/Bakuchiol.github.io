@@ -1,0 +1,7 @@
+#aboutWrapper {
+    border: solid orange;
+    background-color: rgb(202, 240, 180);
+    height: 500px;
+    /* font-size: clamp(2rem, 10vw, 2rem); */
+    font-size: clamp(1.5rem, 2.5vw, 4rem); 
+}

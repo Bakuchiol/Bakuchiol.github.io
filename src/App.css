@@ -1,3 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(235, 225, 202);
+  background-image: url('/public/noise.png');
+  background-position: 50% 50%;
+  background-size: 300px;
+  background-attachment: fixed;
+}
+
 .App {
   text-align: center;
+}
+
+/* NAVBAR */
+#navBar {
+  border: solid green;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+.navBox {
+  border: solid fuchsia;
+  width: 300px;
+  display: flex;
+  align-self: center;
+}
+.navUl {
+  text-align: left;
+  list-style: none;
+}
+.navUl a {
+  text-decoration: none;
+  color: #1c1b1b;
+  font-size: 18px;
+}
+
+/* -------------------------------------------------- */
+/* footer */
+#aboutWrapper {
+  border: solid blueviolet;
+}
+
+/* ------------------------------------------ */
+#homeTitle {
+  border: solid royalblue;
+  background-color: rgb(240, 243, 160);
+  height: 400px;
 }
