@@ -40,6 +40,13 @@ body {
 
 /* -------------------------------------------------- */
 /* footer */
+#footerWrapper {
+  border: solid magenta;
+  background-color: antiquewhite;
+  height: 70px;
+}
+/* -------------------------------------------------- */
+/* about */
 #aboutWrapper {
   border: solid blueviolet;
 }
@@ -48,5 +55,15 @@ body {
 #homeTitle {
   border: solid royalblue;
   background-color: rgb(240, 243, 160);
-  height: 400px;
+}
+.homePara {
+  height: 100vh;
+  position: relative;
+}
+
+/* ----------------------------------------------------- */
+/* TEST */
+.testPara {
+  height: 100vh;
+  position: relative;
 }

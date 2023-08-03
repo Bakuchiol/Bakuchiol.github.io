@@ -6,7 +6,6 @@ function About() {
     <div id='aboutWrapper'>
       <h4>submission form</h4>
       <h4>contact me/let's work together</h4>
-      <h4>bored api? here?</h4>
     </div>
   )
 }

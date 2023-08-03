@@ -1,5 +1,14 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
 #projectWrapper {
     border:solid orange;
     background-color: rgb(246, 205, 212);
     height: 500px
+}
+.projPara {
+    height: 100vh;
+    position: relative;
 }
