@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(235, 225, 202);
+  /* background-color: rgb(235, 225, 202); */
   background-image: url('/public/noise.png');
+  background-color: #1c1b1b;
   background-position: 50% 50%;
   background-size: 300px;
   background-attachment: fixed;
+  /*  */
+  color: #f5f5f5;
 }
 
 .App {
@@ -18,13 +21,14 @@ body {
 /* NAVBAR */
 #navBar {
   border: solid green;
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: flex-end;
+  color: #f5f5f5;
 }
 .navBox {
   border: solid fuchsia;
-  width: 300px;
+  width: 100px;
   display: flex;
   align-self: center;
 }
@@ -34,7 +38,7 @@ body {
 }
 .navUl a {
   text-decoration: none;
-  color: #1c1b1b;
+  color: #f5f5f5;
   font-size: 18px;
 }
 
@@ -42,7 +46,7 @@ body {
 /* footer */
 #footerWrapper {
   border: solid magenta;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   height: 70px;
 }
 /* -------------------------------------------------- */
@@ -52,18 +56,23 @@ body {
 }
 
 /* ------------------------------------------ */
+/* home title */
 #homeTitle {
   border: solid royalblue;
-  background-color: rgb(240, 243, 160);
+  height: 300px;
 }
 .homePara {
-  height: 100vh;
+  height: 37vh;
   position: relative;
 }
 
 /* ----------------------------------------------------- */
 /* TEST */
+#testWrap {
+  border: solid hotpink;
+  height: 15vh;
+}
 .testPara {
-  height: 100vh;
+  height: 15vh;
   position: relative;
 }

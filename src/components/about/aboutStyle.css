@@ -1,7 +1,23 @@
 #aboutWrapper {
     border: solid orange;
-    background-color: rgb(202, 240, 180);
+    /* background-color: rgb(202, 240, 180); */
     height: 200px;
     /* font-size: clamp(2rem, 10vw, 2rem); */
     font-size: clamp(1.5rem, 2.5vw, 4rem); 
+    display: flex;
+}
+.aboutForm {
+    border: solid purple;
+    width: 450px;
+}
+.aboutLinks ul {
+    border: solid red;
+    list-style: none;
+}
+.aboutLinks a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.aboutLinks a:hover {
+    color: orange;
 }
