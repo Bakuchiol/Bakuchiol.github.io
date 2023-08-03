@@ -2,13 +2,20 @@
     border: solid orange;
     /* background-color: rgb(202, 240, 180); */
     height: 200px;
-    /* font-size: clamp(2rem, 10vw, 2rem); */
-    font-size: clamp(1.5rem, 2.5vw, 4rem); 
+    /* font-size: clamp(1.5rem, 2.5vw, 4rem);  */
     display: flex;
+    justify-content: center;
 }
 .aboutForm {
     border: solid purple;
-    width: 450px;
+    width: 250px;
+}
+.aboutLinks {
+    border: solid skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
 }
 .aboutLinks ul {
     border: solid red;

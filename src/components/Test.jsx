@@ -7,7 +7,11 @@ function Test() {
   return (
     <div id='testWrap'>
       <Parallax className='testPara' bgImage={sand} strength={200}>
-        <h1><span>STUFFFFFSSSSSS</span></h1>
+        <h1><span>Another project</span></h1>
+        <h1><span>Another project</span></h1>
+        <h1><span>Another project</span></h1>
+        <h1><span>Another project</span></h1>
+        <h1><span>Another project</span></h1>
       </Parallax>
     </div>
   )

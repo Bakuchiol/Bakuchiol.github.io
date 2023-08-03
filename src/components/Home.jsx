@@ -4,10 +4,13 @@ import React from 'react'
 function Home() {
   return (
     <div id='homeTitle'>
-        <h4>HOME TITLE</h4>
-        <h4>HOME TITLE</h4>
-        <h4>HOME TITLE</h4>
-        <h4>HOME TITLE</h4>        
+        <h1>Hell<span>o</span></h1>
+        {/* <p>✨</p>
+        <h1>Kumusta</h1>
+        <p>✨</p>
+        <h1>Kumusta</h1> 
+        <p>✨</p>
+        <h1>Kumusta</h1>   */}
     </div>
   )
 }

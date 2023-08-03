@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: rgb(235, 225, 202); */
+  background-color: rgb(235, 225, 202);
   background-image: url('/public/noise.png');
   background-color: #1c1b1b;
   background-position: 50% 50%;
@@ -20,7 +20,7 @@ body {
 
 /* NAVBAR */
 #navBar {
-  border: solid green;
+  /* border: solid green; */
   height: 100px;
   display: flex;
   justify-content: flex-end;
@@ -48,6 +48,9 @@ body {
   border: solid magenta;
   /* background-color: antiquewhite; */
   height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* -------------------------------------------------- */
 /* about */
@@ -58,8 +61,19 @@ body {
 /* ------------------------------------------ */
 /* home title */
 #homeTitle {
-  border: solid royalblue;
-  height: 300px;
+  /* border: solid royalblue; */
+  height: 550px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: clamp(5rem, 17vw, 17rem); 
+}
+#homeTitle h1 {
+  border: solid blueviolet;
+}
+#homeTitle p {
+  border: solid pink;
+  height: 100px;
 }
 .homePara {
   height: 37vh;

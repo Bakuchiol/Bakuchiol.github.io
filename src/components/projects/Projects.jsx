@@ -2,12 +2,12 @@ import React from 'react'
 import './projectStyle.css'
 import { Parallax } from 'react-parallax'
 
-import mountain from '../../images/mountain.jpg'
+import space from '../../images/SpaceBattle.png'
 
 function Projects() {
   return (
     <div id='projectWrapper'>
-      <Parallax className='projPara' bgImage={mountain} strength={200}>
+      <Parallax className='projPara' bgImage={space} strength={200}>
         <h3>project here</h3>
         <ol>
           <li>EACH PROJECT LINKS?</li>
