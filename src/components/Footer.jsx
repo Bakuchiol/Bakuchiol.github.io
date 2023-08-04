@@ -6,9 +6,12 @@ function Footer() {
   const [bored, setBored] = useState('')
 
   const fetchActivity = async() => {
-    const response = await axios.get(`https://www.boredapi.com/api/activity`)
-    let info = await response.data
-    setBored(info)
+    // const response = await axios.get(`https://www.boredapi.com/api/activity`)
+    // let info = await response.data
+    // setBored(info)
+    await axios.get('https://www.boredapi.com/api/activity')
+    .then((response) => { setBored(response.data)})
+    .catch((error) => { console.log(error)})
   }
 
   useEffect(() => {
@@ -20,12 +23,14 @@ function Footer() {
     let activity = document.getElementById('activityX')
     activity.style.display = 'block'
   }
+  console.log(bored.activity)
 
   return (
     <div id='footerWrapper'>
       <h4>Feeling Bored?
         <button onClick={randomClick}>Click Me</button></h4>
-      <div id='activityX'>✨{bored.activity}✨</div>
+        <br />
+        <div id='activityX'>✨{bored.activity}✨</div>
       {/* <p>Made by Lynette Cargo ☻</p> */}
     </div>
   )

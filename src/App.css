@@ -56,8 +56,10 @@ body {
   border: solid magenta;
   /* background-color: antiquewhite; */
   width: 300px;
-  height: 40px;
+  height: 100px;
   display: none;
+  position: relative;
+  margin-left: 300px;
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
@@ -159,15 +161,20 @@ body {
 /* test drag */
 #testDrag {
   border: solid lime;
+  background-image: url('https://thumbs.gfycat.com/BoldGiganticErmine-size_restricted.gif');
+  background-repeat: no-repeat;
+  background-size: 300px 250px;
   background-color: #f93700;
   color: royalblue;
   width: 300px;
-  height: 300px;
+  height: 250px;
   position: absolute;
   margin-top: -30px;
   right: 280px;
 }
-.helloDance {
-  width: 100%;
-  /* width: 170px; */
+#testDrag > p {
+  border: solid hotpink;
+  position: absolute;
+  top: -20px;
+  left: 50px;
 }
