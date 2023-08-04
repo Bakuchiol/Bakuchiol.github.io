@@ -11,7 +11,7 @@ import Gucci from '../../components/Gucci'
 import SpaceTxt from '../../components/projects/SpaceTxt'
 import Word from '../../components/Word'
 import AboutCard from '../../components/about/AboutCard'
-import Selected from '../../components/Selected'
+import Selected from '../../components/selected/Selected'
 
 // import spaceBattle from '../../videos/spaceBattle.mov'
 
@@ -28,8 +28,6 @@ function HomeInfo() {
       behavior: 'smooth'
     })
   }
-
-
 
   return (
     <div id='mainWrapper'>

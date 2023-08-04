@@ -1,0 +1,20 @@
+#selectCard {
+    border: solid greenyellow;
+    height: 100vh;
+    text-align: left;
+}
+.divOne {
+    border: solid green;
+    height: 200px;
+    width: 200px;
+}
+.divTwo {
+    border: solid red;
+    height: 200px;
+    width: 200px;
+}
+.divThree {
+    border: solid hotpink;
+    height: 200px;
+    width: 200px;
+}
