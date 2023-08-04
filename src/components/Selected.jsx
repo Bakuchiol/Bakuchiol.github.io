@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Selected() {
+function Selected(ref) {
+    
   return (
-    <div>
-      
+    <div id='selectCard'>
+      <h1>Selected Works</h1>
     </div>
   )
 }

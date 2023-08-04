@@ -14,7 +14,7 @@ function AboutCard() {
             provide a seamless browsing experience.
         </p>
         <br />
-        <p>In my leisure time, I enjoy playing video games like this <a>one where I made a fan website</a>.</p>
+        <p>In my leisure time, I enjoy playing video games like this <a href='https://www.google.com/' target='_blank' rel='noreferrer'>one where I made a fan website</a>.</p>
     </div>
   )
 }
