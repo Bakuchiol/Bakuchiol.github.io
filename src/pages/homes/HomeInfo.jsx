@@ -16,6 +16,7 @@ import Selected from '../../components/Selected'
 // import spaceBattle from '../../videos/spaceBattle.mov'
 
 function HomeInfo() {
+  
   // useRef
   const project = useRef(null)
   const about = useRef(null)

@@ -23,8 +23,9 @@ function Footer() {
 
   return (
     <div id='footerWrapper'>
-      <h4>Feeling Bored? <button onClick={randomClick}>Click Me</button> for an activity.</h4>
-      <p id='activityX'>{bored.activity}</p>
+      <h4>Feeling Bored?
+        <button onClick={randomClick}>Click Me</button></h4>
+      <div id='activityX'>✨{bored.activity}✨</div>
       {/* <p>Made by Lynette Cargo ☻</p> */}
     </div>
   )

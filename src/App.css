@@ -29,6 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 70px 0 40px;
+  cursor: pointer;
   /* color: #f5f5f5; */
 }
 .navBox {
@@ -52,14 +53,28 @@ body {
 #footerWrapper {
   border: solid magenta;
   /* background-color: antiquewhite; */
-  width: 200px;
+  width: 300px;
   height: 40px;
+  display: none;
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
 }
+#footerWrapper button {
+  padding: 0 5px 0 5px;
+  border: none;
+  background: none;
+  color: #f93700;
+  font-size: 18px;
+  font-style: italic;
+  /* text-decoration: underline; */
+  font-weight: bolder;
+}
 #activityX {
+  /* border: solid lightblue; */
+  height: 60px;
   display: none;
+  color: #f93700;
 }
 
 /* -------------------------------------------------- */
@@ -142,10 +157,15 @@ body {
 /* test drag */
 #testDrag {
   border: solid lime;
-  background-color: #f93700;
-  color: white;
-  width: 200px;
-  height: 200px;
+  /* background-color: #f93700; */
+  color: royalblue;
+  width: 300px;
+  height: 300px;
   position: absolute;
+  margin-top: -30px;
   right: 280px;
+}
+.helloDance {
+  width: 100%;
+  /* width: 170px; */
 }
