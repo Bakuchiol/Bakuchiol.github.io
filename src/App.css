@@ -5,13 +5,16 @@
 }
 body {
   /* background-color: rgb(235, 225, 202); */
+  /* background-color: #fbfbfb; */
+  background-color: #ffecdd;
   background-image: url('/public/noise.png');
-  background-color: #1c1b1b;
+  /* background-color: #1c1b1b; */
   background-position: 50% 50%;
   background-size: 300px;
   background-attachment: fixed;
   /*  */
-  color: #f5f5f5;
+  /* color: #f5f5f5; */
+  color: #f93700
 }
 
 .App {
@@ -21,14 +24,16 @@ body {
 /* NAVBAR */
 #navBar {
   /* border: solid green; */
-  height: 100px;
+  height: 70px;
   display: flex;
-  justify-content: flex-end;
-  color: #f5f5f5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px 0 40px;
+  /* color: #f5f5f5; */
 }
 .navBox {
   border: solid fuchsia;
-  width: 100px;
+  /* width: 300px; */
   display: flex;
   align-self: center;
 }
@@ -47,11 +52,16 @@ body {
 #footerWrapper {
   border: solid magenta;
   /* background-color: antiquewhite; */
+  width: 200px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
+#activityX {
+  display: none;
+}
+
 /* -------------------------------------------------- */
 /* about */
 #aboutWrapper {
@@ -60,24 +70,49 @@ body {
 
 /* ------------------------------------------ */
 /* home title */
-#homeTitle {
-  /* border: solid royalblue; */
-  height: 550px;
-  display: flex;
-  align-items: flex-end;
+#homeHeadline {
+  border: solid royalblue;
+  height: 90vh;
+  padding-top: 100px;
+  /* display: flex; */
+  /* align-items: flex-end; */
   justify-content: center;
-  font-size: clamp(5rem, 17vw, 17rem); 
+  /* font-size: clamp(5rem, 17vw, 17rem);  */
 }
-#homeTitle h1 {
-  border: solid blueviolet;
+.homeWrapTxt {
+  border: solid greenyellow;
+  width: 900px;
+  margin-left: 70px;
+  text-align: left;
 }
-#homeTitle p {
+.homeTitle {
+  font-size: clamp(8rem, 17vw, 17rem);
+}
+.homeMe {
+  /* position: relative; */
+  margin-top: -50px;
+  padding-left: 15px;
+  font-style: italic;
+  font-size: clamp(1.5rem, 7vw, 3rem);
+}
+.homeSub {
   border: solid pink;
-  height: 100px;
+  padding-left: 15px;
+}
+.homeMe {
+  border: solid lightblue;
 }
 .homePara {
   height: 37vh;
   position: relative;
+}
+#homeWrapper {
+  border:solid orange;
+  height: 120px;
+  padding-right: 60px;
+  text-align: right;
+  font-size: clamp(2rem, 6vw, 12rem);
+  /* background-color: rgba(184, 175, 175, 0.51); */
 }
 
 /* ----------------------------------------------------- */
@@ -101,4 +136,16 @@ body {
   height: 33vh;
   background-color: #f5f5f5;
   color: black;
+}
+
+/* ------------------------ */
+/* test drag */
+#testDrag {
+  border: solid lime;
+  background-color: #f93700;
+  color: white;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 280px;
 }

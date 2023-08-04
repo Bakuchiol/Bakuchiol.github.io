@@ -34,6 +34,9 @@ function HomeInfo() {
     <div id='mainWrapper'>
       {/* <NavBar /> */}
       <div id='navBar'>
+        <div className="logoName">
+          <p>LYNETTE CARGO</p>
+        </div>
       <div className='navBox'>
         <ul className='navUl'>
             <li onClick={() => scrollTo(project)}>Portfolio</li>
@@ -51,10 +54,7 @@ function HomeInfo() {
         <Home />
       </div>
   {/* ----------------------------------------------------------------- */}
-      <div id='homeWrapper'>
-
-        <h3>nice to meet you</h3>
-      </div>
+      
   {/* ----------------------------------------------------------------- */}
   {/* <video src={spaceBattle} autoPlay loop muted /> */}
     <div ref={project} className="projects">
