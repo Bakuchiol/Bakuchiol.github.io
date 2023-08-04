@@ -15,6 +15,7 @@ import Selected from '../../components/selected/Selected'
 
 // import spaceBattle from '../../videos/spaceBattle.mov'
 
+
 function HomeInfo() {
   
   // useRef
@@ -44,11 +45,9 @@ function HomeInfo() {
         </ul>
       </div>
     </div>
-
-
-
-
       {/* components */}
+
+
       <div className="home">
         <Home />
       </div>

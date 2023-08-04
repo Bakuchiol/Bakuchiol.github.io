@@ -159,7 +159,7 @@ body {
 /* test drag */
 #testDrag {
   border: solid lime;
-  /* background-color: #f93700; */
+  background-color: #f93700;
   color: royalblue;
   width: 300px;
   height: 300px;
