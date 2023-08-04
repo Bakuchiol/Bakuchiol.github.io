@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './aboutStyle.css'
 // 
 const resume = 'http://localhost:3000/Resume.pdf'
@@ -6,6 +6,13 @@ const resume = 'http://localhost:3000/Resume.pdf'
 
 
 function About() {
+  // useRef
+  const form = useRef()
+
+  const sendEmail = () => {
+    
+  }
+
   // resume download
   const downloadCV = (url) => {
     fetch(url)
@@ -26,6 +33,31 @@ function About() {
     <div id='aboutWrapper'>
       <div className='aboutForm'>
         <h2>FORM GOES HERE</h2>
+
+        <form id='contactForm' ref={form} onSubmit={sendEmail}>
+          <input
+            className='form'
+            id='name'
+            name='name'
+            placeholder='Name'
+            type='text'
+          />
+          {/* email */}
+          <input
+          className='form2'
+          id='email'
+          name='email'
+          placeholder='Email'
+          type='email'
+        />
+        {/* text area */}
+        <textarea className='formText' id='message'
+                  name='message'
+                  placeholder='Message'
+        ></textarea>
+        <button className='formButton' type='submit'>Send</button>
+        </form>
+        
       </div>
       <div className='aboutLinks'>
         <div>
