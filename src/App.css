@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(235, 225, 202);
+  /* background-color: rgb(235, 225, 202); */
   background-image: url('/public/noise.png');
   background-color: #1c1b1b;
   background-position: 50% 50%;
@@ -84,9 +84,21 @@ body {
 /* TEST */
 #testWrap {
   border: solid hotpink;
-  height: 15vh;
+  height: 90vh;
 }
 .testPara {
-  height: 15vh;
+  height: 90vh;
   position: relative;
+}
+/* --------------------------------------------------------- */
+/* text */
+#projDescription {
+  border: solid teal;
+  height: 175px;
+  margin-top: 40px;
+}
+.projDescBox {
+  height: 33vh;
+  background-color: #f5f5f5;
+  color: black;
 }
