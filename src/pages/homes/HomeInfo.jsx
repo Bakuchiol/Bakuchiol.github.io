@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import './homeStyle.css'
 import NavBar from '../../components/NavBar'
 import About from '../../components/about/About'
@@ -15,10 +16,40 @@ import Selected from '../../components/Selected'
 // import spaceBattle from '../../videos/spaceBattle.mov'
 
 function HomeInfo() {
+  // useRef
+  const project = useRef(null)
+  const about = useRef(null)
+  const contact = useRef(null)
+
+  const scrollTo = (element) => {
+    window.scrollTo({
+      top: element.current.offsetTop,
+      behavior: 'smooth'
+    })
+  }
+
+
+
   return (
-    <div>
-      <NavBar />
-      <Home />
+    <div id='mainWrapper'>
+      {/* <NavBar /> */}
+      <div id='navBar'>
+      <div className='navBox'>
+        <ul className='navUl'>
+            <li onClick={() => scrollTo(project)}>Portfolio</li>
+            <li onClick={() => scrollTo(about)}>About</li>
+            <li onClick={() => scrollTo(contact)}>Contact</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+      {/* components */}
+      <div className="home">
+        <Home />
+      </div>
   {/* ----------------------------------------------------------------- */}
       <div id='homeWrapper'>
 
@@ -26,17 +57,23 @@ function HomeInfo() {
       </div>
   {/* ----------------------------------------------------------------- */}
   {/* <video src={spaceBattle} autoPlay loop muted /> */}
+    <div ref={project} className="projects">
       <Selected />
+    </div>
       <Gucci />
       <SpaceTxt />
       <Projects />
-      <SpaceTxt />
+      {/* <SpaceTxt /> */}
       <Test />
       <SpaceTxt />
       <Word />
       <SpaceTxt />
+    <div ref={about} className="about">
       <AboutCard />
+    </div>
+    <div ref={contact} className="contact">
       <About />
+    </div>
       <Footer />
     </div>
   )

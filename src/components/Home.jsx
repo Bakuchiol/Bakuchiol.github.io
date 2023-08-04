@@ -5,12 +5,6 @@ function Home() {
   return (
     <div id='homeTitle'>
         <h1>Hell<span>o</span></h1>
-        {/* <p>✨</p>
-        <h1>Kumusta</h1>
-        <p>✨</p>
-        <h1>Kumusta</h1> 
-        <p>✨</p>
-        <h1>Kumusta</h1>   */}
     </div>
   )
 }
