@@ -1,8 +1,8 @@
 import React from 'react'
 import './projectStyle.css'
 import { Parallax } from 'react-parallax'
-
 import space from '../../images/SpaceBattle.png'
+
 
 function Projects() {
   return (

@@ -47,7 +47,7 @@ body {
 #footerWrapper {
   border: solid magenta;
   /* background-color: antiquewhite; */
-  height: 70px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

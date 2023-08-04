@@ -8,6 +8,10 @@ import Test from '../../components/Test'
 import Footer from '../../components/Footer'
 import Gucci from '../../components/Gucci'
 import SpaceTxt from '../../components/projects/SpaceTxt'
+import Word from '../../components/Word'
+import AboutCard from '../../components/about/AboutCard'
+
+// import spaceBattle from '../../videos/spaceBattle.mov'
 
 function HomeInfo() {
   return (
@@ -20,12 +24,16 @@ function HomeInfo() {
         <h3>nice to meet you</h3>
       </div>
   {/* ----------------------------------------------------------------- */}
+  {/* <video src={spaceBattle} autoPlay loop muted /> */}
       <Gucci />
       <SpaceTxt />
       <Projects />
       <SpaceTxt />
       <Test />
       <SpaceTxt />
+      <Word />
+      <SpaceTxt />
+      <AboutCard />
       <About />
       <Footer />
     </div>

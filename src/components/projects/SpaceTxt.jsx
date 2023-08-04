@@ -3,6 +3,7 @@ import './projectStyle.css'
 import { Parallax } from 'react-parallax'
 
 
+
 function SpaceTxt() {
   return (
     <div id='spaceTxt'>
@@ -15,7 +16,7 @@ function SpaceTxt() {
             <h3>Space Battle was a mini project .... blah</h3>
             <p>LINKY LINKY LINKY LINK</p>
             <p><a href=''>Visit the site ↗</a></p>
-            <p><a href=''>See the code (^-^)</a></p>
+            <p><a href='https://github.com/Bakuchiol/SpaceGame' target='_blank' rel='noreferrer'>See the code (^-^)</a></p>
         </div>
       </Parallax>
     </div>

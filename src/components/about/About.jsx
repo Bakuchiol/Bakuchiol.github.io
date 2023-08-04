@@ -3,6 +3,8 @@ import './aboutStyle.css'
 // 
 const resume = 'http://localhost:3000/Resume.pdf'
 
+
+
 function About() {
   // resume download
   const downloadCV = (url) => {
@@ -29,9 +31,9 @@ function About() {
         <div>
         <div>About Me</div>
         <ul>
-          <li><a href='https://www.linkedin.com/in/lynette-anne-cargo/'>LinkedIn</a></li>
-          <li><a href='https://github.com/Bakuchiol'>GitHub</a></li>
-          <li onClick={()=>{downloadCV(resume)}}>Resume</li>
+          <li><a href='https://www.linkedin.com/in/lynette-anne-cargo/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
+          <li><a href='https://github.com/Bakuchiol' target='_blank' rel='noreferrer'>GitHub</a></li>
+          <li onClick={()=>{downloadCV(resume)}}>Download Resume</li>
         </ul>
         </div>
         
