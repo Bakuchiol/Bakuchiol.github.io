@@ -1,20 +1,14 @@
 import React, { useRef } from 'react'
-// import { Link } from 'react-router-dom'
 import './homeStyle.css'
-// import NavBar from '../../components/NavBar'
-import About from '../../components/about/About'
 import Home from '../../components/Home'
 import Projects from '../../components/projects/Projects'
 import Test from '../../components/Test'
 // import Footer from '../../components/Footer'
 import Gucci from '../../components/Gucci'
-import SpaceTxt from '../../components/projects/SpaceTxt'
 import Word from '../../components/projects/Word'
 import AboutCard from '../../components/about/AboutCard'
 import Selected from '../../components/selected/Selected'
 import FooterLinks from '../../components/footer_links/FooterLinks'
-
-// import spaceBattle from '../../videos/spaceBattle.mov'
 
 
 function HomeInfo() {  
@@ -32,7 +26,6 @@ function HomeInfo() {
 
   return (
     <div id='mainWrapper'>
-      {/* <NavBar /> */}
       <div id='navBar'>
         <div className="logoName">
           <p className='text'>LYNETTE CARGO</p>
@@ -60,13 +53,11 @@ function HomeInfo() {
       </div>
         <Gucci />
         <Word />
-          {/*
+          
           <Projects />
           <Test />
-          <SpaceTxt /> */}
       
       <div ref={contact} className="contact">
-          {/* <About /> */}
           <FooterLinks />
       </div>
     </div>

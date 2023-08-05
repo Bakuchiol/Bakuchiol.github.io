@@ -17,6 +17,7 @@
     border: solid red;
     padding-top: 50px;
     display: flex;
+    height: 500px;
     /* justify-content: flex-end; */
 }
 .divOne {

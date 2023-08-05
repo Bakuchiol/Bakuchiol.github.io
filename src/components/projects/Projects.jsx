@@ -1,16 +1,14 @@
 import React from 'react'
 import './projectStyle.css'
 import { Parallax } from 'react-parallax'
-import space from '../../images/SpaceBattle.png'
-import SpaceTxt from './SpaceTxt'
 
+import space from '../../images/space.png'
 
 function Projects() {
   return (
     <div id='projectWrapper'>
       <Parallax className='projPara' bgImage={space} strength={200}>
-        <h1>SPACE BATTLE</h1>
-        <SpaceTxt />
+        <h1>CONSOLE WARS</h1>
       </Parallax>
     </div>
   )
