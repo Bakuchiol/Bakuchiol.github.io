@@ -1,20 +1,15 @@
-import React, { useState } from 'react'
-import Draggable, { DraggableData, DraggableEvent } from 'react-draggable'
+import React from 'react'
+import Draggable from 'react-draggable'
 import Footer from './Footer'
 // STYLE AT app.css
 
 
 function Home() {
 
-  // state
-  const [show, setShow] = useState()
-
   const showDiv = () => {
     let div = document.getElementById('footerWrapper')
     div.style.display = 'block'
   }
-
-
 
   return (
     <div id='homeHeadline'>

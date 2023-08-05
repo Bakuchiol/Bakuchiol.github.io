@@ -31,44 +31,52 @@ function About() {
 
   return (
     <div id='aboutWrapper'>
+      <div id='formLinks'>
       <div className='aboutForm'>
-        <h2>FORM GOES HERE</h2>
-
+      <div>
+        {/* <h2>Get in touch.</h2> */}
+      </div>
         <form id='contactForm' ref={form} onSubmit={sendEmail}>
-          <input
+          {/* <input
             className='form'
             id='name'
             name='name'
             placeholder='Name'
             type='text'
           />
+          <br /> */}
           {/* email */}
           <input
-          className='form2'
+          className='form'
           id='email'
           name='email'
           placeholder='Email'
           type='email'
         />
+        <br />
         {/* text area */}
         <textarea className='formText' id='message'
                   name='message'
                   placeholder='Message'
         ></textarea>
+        <br />
         <button className='formButton' type='submit'>Send</button>
         </form>
         
       </div>
-      <div className='aboutLinks'>
-        <div>
-        <div>About Me</div>
-        <ul>
-          <li><a href='https://www.linkedin.com/in/lynette-anne-cargo/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
-          <li><a href='https://github.com/Bakuchiol' target='_blank' rel='noreferrer'>GitHub</a></li>
-          <li onClick={()=>{downloadCV(resume)}}>Download Resume</li>
-        </ul>
+      <div className="rightWrap">
+        <div className='aboutLinks'>
+          <p id='aboutTitle'>Let's create something great together!</p>
+          <p>TO DO: EMPTY SPACE/ IMG?</p>
+          <div className='aboutLinkList'>
+            <ul>
+              <li><a href='https://www.linkedin.com/in/lynette-anne-cargo/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
+              <li><a href='https://github.com/Bakuchiol' target='_blank' rel='noreferrer'>GitHub</a></li>
+              <li className='linkLink' onClick={()=>{downloadCV(resume)}}>Download Resume</li>
+            </ul>
+          </div>
         </div>
-        
+      </div>
       </div>
     </div>
   )

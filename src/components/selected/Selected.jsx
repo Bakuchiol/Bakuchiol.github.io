@@ -8,7 +8,9 @@ function Selected() {
     <div id='selectCard'>
       <Parallax>
         <h1>Selected Works</h1>
+        <div id='divTest'>
         <div className="divOne"></div>
+        </div>
         <div className="divTwo"></div>
         <div className="divThree"></div>
       </Parallax>

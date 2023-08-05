@@ -3,18 +3,27 @@
     height: 100vh;
     text-align: left;
 }
+#divTest {
+    margin: solid red;
+}
 .divOne {
     border: solid green;
+    background-color: green;
     height: 200px;
     width: 200px;
+    position: relative;
 }
 .divTwo {
     border: solid red;
+    background-color: red;
     height: 200px;
     width: 200px;
+    position: absolute;
 }
 .divThree {
     border: solid hotpink;
+    background-color: hotpink;
     height: 200px;
     width: 200px;
+    position: absolute;
 }

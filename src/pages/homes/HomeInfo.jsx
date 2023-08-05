@@ -1,12 +1,12 @@
 import React, { useRef } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './homeStyle.css'
-import NavBar from '../../components/NavBar'
+// import NavBar from '../../components/NavBar'
 import About from '../../components/about/About'
 import Home from '../../components/Home'
 import Projects from '../../components/projects/Projects'
 import Test from '../../components/Test'
-import Footer from '../../components/Footer'
+// import Footer from '../../components/Footer'
 import Gucci from '../../components/Gucci'
 import SpaceTxt from '../../components/projects/SpaceTxt'
 import Word from '../../components/Word'
@@ -46,8 +46,6 @@ function HomeInfo() {
       </div>
     </div>
       {/* components */}
-
-
       <div className="home">
         <Home />
       </div>
@@ -55,24 +53,23 @@ function HomeInfo() {
       
   {/* ----------------------------------------------------------------- */}
   {/* <video src={spaceBattle} autoPlay loop muted /> */}
-    <div ref={project} className="projects">
-      <Selected />
-    </div>
-      <Gucci />
-      <SpaceTxt />
-      <Projects />
-      {/* <SpaceTxt /> */}
-      <Test />
-      <SpaceTxt />
-      <Word />
-      <SpaceTxt />
-    <div ref={about} className="about">
-      <AboutCard />
-    </div>
-    <div ref={contact} className="contact">
-      <About />
-    </div>
-      <Footer />
+      <div ref={project} className="projects">
+        <Selected />
+      </div>
+          <Gucci />
+          <SpaceTxt />
+          <Projects />
+        {/* <SpaceTxt /> */}
+          <Test />
+          <SpaceTxt />
+          <Word />
+          <SpaceTxt />
+      <div ref={about} className="about">
+          <AboutCard />
+      </div>
+      <div ref={contact} className="contact">
+          <About />
+      </div>
     </div>
   )
 }

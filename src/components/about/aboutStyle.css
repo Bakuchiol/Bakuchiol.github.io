@@ -1,30 +1,127 @@
 #aboutWrapper {
-    border: solid orange;
+    border: solid hotpink;
     /* background-color: rgb(202, 240, 180); */
-    height: 200px;
-    /* font-size: clamp(1.5rem, 2.5vw, 4rem);  */
+    height: 350px;
+}
+#formLinks {
+    display: flex;
+}
+/* right side */
+.rightWrap {
+    padding-top: 30px;
+    width: 890px;
+    border: solid sienna;
     display: flex;
     justify-content: center;
-}
-.aboutForm {
-    border: solid purple;
-    width: 250px;
 }
 .aboutLinks {
     border: solid skyblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 130px;
+    height: 150px;
+}
+#aboutTitle {
+    font-size: 40px;
 }
 .aboutLinks ul {
     border: solid red;
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
 }
 .aboutLinks a {
     text-decoration: none;
-    color: #f5f5f5;
 }
 .aboutLinks a:hover {
     color: orange;
+}
+.aboutLinkList {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.aboutLinkList a {
+    color: #f93700;
+}
+.aboutLinkList a:hover {
+    color: rgb(64, 109, 244);
+}
+.linkLink:hover {
+    color: rgb(64, 109, 244);
+    cursor: pointer;
+}
+/* ------------------------------------- */
+/* FORM */
+.aboutForm {
+    background-color: #f5f5f5;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 500px;
+    height: 350px;
+    margin-left: 30px;
+    padding-top: 15px;
+}
+input {
+    border: 1px black;
+    border-style: none none solid none;
+    background: none;
+    margin-top: 20px;
+}
+.form, .form2 {
+    /* border: solid purple; */
+    width: 400px;
+    height: 50px;
+    padding-top: 25px;
+    font-size: 16px;
+    background: none;
+}
+.formText {
+    border: 1px solid black;
+    /* border-style: none none solid none; */
+    background: none;
+    width: 400px;
+    height: 150px;
+    margin: 20px 0 0 0;
+    padding: 10px 0 0 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.formButton {
+    width: 120px;
+    height: 35px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+/* -------------------------------------------- */
+#aboutCard {
+    border: solid red;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.aboutCard {
+    border: solid blueviolet;
+    width: 800px;
+}
+.aboutMe {
+    border:solid green;
+    width: 500px;
+    font-size: 50px;
+    text-align: left;
+}
+.centerText{
+    display: flex;
+    justify-content: center;
+}
+.aboutTextBox {
+    border: solid fuchsia;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    width: 700px;
+    padding: 30px;
+    font-size: 18px;
+    position:relative;
+    left: 220px;
+    top: -30px;
 }
