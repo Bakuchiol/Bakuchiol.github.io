@@ -12,6 +12,7 @@ import SpaceTxt from '../../components/projects/SpaceTxt'
 import Word from '../../components/Word'
 import AboutCard from '../../components/about/AboutCard'
 import Selected from '../../components/selected/Selected'
+import FooterLinks from '../../components/footer_links/FooterLinks'
 
 // import spaceBattle from '../../videos/spaceBattle.mov'
 
@@ -68,7 +69,8 @@ function HomeInfo() {
           <SpaceTxt />
       
       <div ref={contact} className="contact">
-          <About />
+          {/* <About /> */}
+          <FooterLinks />
       </div>
     </div>
   )

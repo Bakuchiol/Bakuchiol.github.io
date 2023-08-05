@@ -61,7 +61,6 @@ function About() {
         <br />
         <button className='formButton' type='submit'>Send</button>
         </form>
-        
       </div>
       <div className="rightWrap">
         <div className='aboutLinks'>

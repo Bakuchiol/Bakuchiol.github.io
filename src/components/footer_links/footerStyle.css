@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400&family=Shrikhand&display=swap');
+/* font-family: 'GFS Didot', serif;
+font-family: 'GFS Neohellenic', sans-serif;
+font-family: 'Shrikhand', cursive; */
+
+#footerLink {
+    border: solid chartreuse;
+    height: 300px;
+    background-color: #f0ffff;
+}
+.footHeader {
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+}
+/* .mailLink {
+    display: flex;
+} */
+.mailLeft {
+    border: solid yellow;
+    display: flex;
+    gap: 5px;
+    font-size: 35px;
+}

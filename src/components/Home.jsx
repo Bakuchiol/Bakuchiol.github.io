@@ -23,7 +23,7 @@ function Home() {
       </Draggable>
 
       <div className="homeWrapTxt">
-        <h1 className='homeTitle'>Hell<span>o</span>!</h1>
+        <h1 className='homeTitle'>Hello</h1>
         <p className='homeMe'>I'm Lynette Cargo</p>
         <p className='homeSub'>
           Web Developer, UX/UI Designer
