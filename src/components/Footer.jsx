@@ -21,7 +21,7 @@ function Footer() {
   const randomClick = () => {
     fetchActivity()
     let activity = document.getElementById('activityX')
-    activity.style.display = 'block'
+    activity.style.visibility = 'visible'
   }
   console.log(bored.activity)
 
@@ -29,9 +29,8 @@ function Footer() {
     <div id='footerWrapper'>
       <h4>Feeling Bored?
         <button onClick={randomClick}>Click Me</button></h4>
-        <br />
         <div id='activityX'>✨{bored.activity}✨</div>
-      {/* <p>Made by Lynette Cargo ☻</p> */}
+        <div><a href="https://www.boredapi.com/" className='api' target='_blank' rel='noreferrer'>boredApi</a></div>
     </div>
   )
 }

@@ -1,29 +1,17 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import gucci from '../images/gucci.png'
+
+import space from '../images/SpaceBattle.png'
 
 function Gucci() {
   return (
     <div id='testWrap'>
-        <Parallax className='=testPara' bgImage={gucci} strength={200}>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-        <h1>GUCCI GUCCI GUCCI GUCCI</h1>
-    </Parallax>
+      <Parallax className='=testPara' strength={200}>
+        <div id='divTest'>
+          <div className="divTwo"></div>
+          <img src={space} alt="space" className='spaceImg'/>
+        </div>
+      </Parallax>
     </div>
   )
 }

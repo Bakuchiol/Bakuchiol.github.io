@@ -7,17 +7,17 @@
     background-color: #f93700;
     margin: 40px 30px;
 }
-#selectCard {
+/* #selectCard {
     border: 5px solid slateblue;
     background-image: url('../../images/portfolio.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 200vh;
-}
+} */
 #divTest {
     border: solid red;
+    padding-top: 50px;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 .divOne {
     border: solid green;
@@ -49,6 +49,8 @@
 .testyPara {
     height: 90vh;
 }
-.sandImg {
-    width: 200px;
+/* --------------------------------------------------- */
+/* imgs */
+.gucciImg, .spaceImg {
+    width: 500px;
 }

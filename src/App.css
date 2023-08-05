@@ -36,48 +36,19 @@ a:hover {
   text-align: center;
 }
 
-/* NAVBAR */
-#navBar {
-  /* border: solid green; */
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 70px 0 40px;
-  cursor: pointer;
-  /* color: #f5f5f5; */
-}
-.navBox {
-  border: solid fuchsia;
-  width: 100px;
-  display: flex;
-  align-self: center;
-  position: relative;
-  margin-top: 70px;
-}
-.navUl {
-  text-align: left;
-  list-style: none;
-}
-.navUl a {
-  text-decoration: none;
-  color: #f5f5f5;
-  font-size: 18px;
-}
-
 /* -------------------------------------------------- */
 /* footer */
 #footerWrapper {
-  border: solid magenta;
-  /* background-color: antiquewhite; */
-  width: 300px;
-  height: 100px;
+  border: .25px solid #ff00ff;
+  border-radius: 5px;
+  /* background-color: rgb(247, 236, 221); */
+  background-color: rgba(217, 246, 255, 0.582);
+  width: 250px;
+  height: 110px;
   display: none;
   position: relative;
-  margin-left: 300px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  margin: 60px 200px;
+  padding: 5px 0;
 }
 #footerWrapper button {
   padding: 0 5px 0 5px;
@@ -86,26 +57,29 @@ a:hover {
   color: #f93700;
   font-size: 18px;
   font-style: italic;
-  /* text-decoration: underline; */
   font-weight: bolder;
 }
 #activityX {
-  /* border: solid lightblue; */
-  height: 60px;
-  display: none;
+  margin-top: 10px;
+  height: 50px;
+  visibility: hidden;
   color: #f93700;
+  font-weight: 700;
+}
+.api {
+  text-decoration: none;
 }
 
 /* -------------------------------------------------- */
 /* about */
-#aboutWrapper {
+/* #aboutWrapper {
   border: solid blueviolet;
-}
+} */
 
 /* ------------------------------------------ */
 /* home title */
 #homeHeadline {
-  border: solid royalblue;
+  /* border: solid royalblue; */
   height: 90vh;
   padding-top: 100px;
   /* display: flex; */
@@ -114,7 +88,7 @@ a:hover {
   /* font-size: clamp(5rem, 17vw, 17rem);  */
 }
 .homeWrapTxt {
-  border: solid greenyellow;
+  /* border: solid greenyellow; */
   width: 900px;
   margin-left: 70px;
   text-align: left;
@@ -125,24 +99,25 @@ a:hover {
 }
 .homeMe {
   /* position: relative; */
-  margin-top: -50px;
-  padding-left: 15px;
+  margin-top: -100px;
   font-size: clamp(1.5rem, 7vw, 3rem);
+  font-weight: 700;
+
 }
 .homeSub {
-  border: solid pink;
-  padding-left: 15px;
-}
-.homeMe {
-  border: solid lightblue;
+  /* border: solid pink; */
+  font-family: 'GFS Neohellenic', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  font-weight: 700;
 }
 .homePara {
   height: 37vh;
   position: relative;
 }
 #homeWrapper {
-  border:solid orange;
+  /* border:solid orange; */
   height: 120px;
+  margin-top: -60px;
   padding-right: 60px;
   text-align: right;
   font-size: clamp(2rem, 6vw, 12rem);
@@ -150,14 +125,36 @@ a:hover {
 h3 {
   font-family: 'Shrikhand', cursive;
 }
+/* ------------------------ */
+/* test drag */
+#testDrag {
+  /* border: solid lime; */
+  background-image: url('https://thumbs.gfycat.com/BoldGiganticErmine-size_restricted.gif');
+  background-repeat: no-repeat;
+  background-size: 300px 250px;
+  background-color: #f93700;
+  color: #2f5be1;
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  margin-top: -30px;
+  right: 280px;
+}
+#testDrag > p {
+  /* border: solid hotpink; */
+  position: absolute;
+  top: -20px;
+  left: 50px;
+}
+
 /* ----------------------------------------------------- */
 /* TEST */
 #testWrap {
   border: solid hotpink;
-  height: 80vh;
+  height: 30vh;
 }
 .testPara {
-  height: 90vh;
+  height: 20vh;
   position: relative;
 }
 /* --------------------------------------------------------- */
@@ -171,26 +168,4 @@ h3 {
   height: 33vh;
   background-color: #f5f5f5;
   color: black;
-}
-
-/* ------------------------ */
-/* test drag */
-#testDrag {
-  border: solid lime;
-  background-image: url('https://thumbs.gfycat.com/BoldGiganticErmine-size_restricted.gif');
-  background-repeat: no-repeat;
-  background-size: 300px 250px;
-  background-color: #f93700;
-  color: royalblue;
-  width: 300px;
-  height: 250px;
-  position: absolute;
-  margin-top: -30px;
-  right: 280px;
-}
-#testDrag > p {
-  border: solid hotpink;
-  position: absolute;
-  top: -20px;
-  left: 50px;
 }

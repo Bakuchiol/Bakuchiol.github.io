@@ -3,16 +3,15 @@
     margin:0;
     box-sizing: border-box;
 }
-#projectWrapper {
+/* #projectWrapper {
     border:solid orange;
-    /* background-color: rgb(246, 205, 212); */
     height: 80vh;
     background-image: url('/public/noise.png');
     background-color: #1c1b1b;
     background-position: 50% 50%;
     background-size: 300px;
     background-attachment: fixed;
-}
+} */
 .projPara {
     height: 80vh;
     position: relative;
