@@ -8,8 +8,9 @@ function Gucci() {
     <div id='testWrap'>
       <Parallax className='=testPara' bgImage={mhw} strength={200}>
         <div id='divTest'>
-          <div className="divTwo"></div>
-          {/* <img src={space} alt="space" className='spaceImg'/> */}
+          <div className="divTwo">
+            
+          </div>
         </div>
       </Parallax>
     </div>

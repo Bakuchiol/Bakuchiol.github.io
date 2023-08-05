@@ -7,19 +7,20 @@
     font-size: clamp(3rem, 12vw, 12vw);
     color: #ffecdd;
     background-color: #f93700;
-    margin: 40px 30px;
+    margin: 40px 30px 0 30px;
 }
 #divTest {
     border: solid red;
-    padding-top: 50px;
     display: flex;
     align-items: center;
+    height: 500px;
 }
 .gucci {
     margin: 0 100px;
 }
 .divOne {
     border: solid green;
+    background-color: #ffecdd;
     height: 250px;
     width: 600px;
     position: relative;
@@ -37,11 +38,11 @@
 }
 /* ---------------------------------- */
 .divTwo {
-    border: solid red;
+    border: solid lime;
     background-color: red;
     height: 200px;
     width: 200px;
-    /* position: relative; */
+    position: relative;
     margin-right: 700px;
 }
 .divThree {
@@ -52,12 +53,12 @@
     position: relative;
 }
 .selectPara{
-    height: 80vh;
+    height: 100vh;
     border: dotted blue;
 }
 /* ------------------ */
 .testyPara {
-    height: 90vh;
+    height: 50vh;
 }
 /* --------------------------------------------------- */
 /* imgs */
