@@ -151,10 +151,11 @@ h3 {
 /* TEST */
 #testWrap {
   border: solid hotpink;
-  height: 50vh;
+  padding-top: 100px;
+  height: 63vh;
 }
 .testPara {
-  height: 50vh;
+  height: 60vh;
   position: relative;
 }
 /* --------------------------------------------------------- */

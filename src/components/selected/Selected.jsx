@@ -4,6 +4,7 @@ import './selectStyles.css'
 
 import gucci from '../../images/gucci.png'
 import txt from '../../images/gucciTxt.png'
+import { Link } from 'react-router-dom'
 
 function Selected() {
     
@@ -22,7 +23,7 @@ function Selected() {
               <p>I chose the Gucci website for its clean aesthetic where I learned that clean does not always mean easy.</p>
 
               <ul>
-                <li><a href='' target='_blank' rel='noreferrer'>Visit the site ↗</a></li>
+                <li><Link>Visit the site ↗</Link></li>
                 <li><a href='https://github.com/Bakuchiol/FunctionMockUp' target='_blank' rel='noreferrer'>See the code <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" className='github'/></a></li>
               </ul>
             </div>

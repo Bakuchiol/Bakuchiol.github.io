@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import './homeStyle.css'
 import Home from '../../components/Home'
 import Projects from '../../components/projects/Projects'
-import Test from '../../components/Test'
 import Gucci from '../../components/Gucci'
 import Word from '../../components/projects/Word'
 import AboutCard from '../../components/about/AboutCard'
@@ -53,7 +52,6 @@ function HomeInfo() {
         <Gucci />
         <Word />
         <Projects />
-        <Test />
   {/* ----------------------------------------------------------------- */}
       <div ref={contact} className="contact">
         <FooterLinks />

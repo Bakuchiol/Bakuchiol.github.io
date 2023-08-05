@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400&family=Shrikhand&display=swap');
+
+/* font-family: 'GFS Didot', serif;
+font-family: 'GFS Neohellenic', sans-serif;
+font-family: 'Shrikhand', cursive; */
+
 #selectCard {
     border: 5px solid slateblue;
     height: 90vh;
@@ -19,7 +25,7 @@
     margin: 0 100px;
 }
 .divOne {
-    border: solid green;
+    border: 1px solid green;
     background-color: #ffecdd;
     height: 250px;
     width: 600px;
@@ -38,13 +44,34 @@
 }
 /* ---------------------------------- */
 .divTwo {
-    border: solid lime;
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    position: relative;
-    margin-right: 700px;
+    border: 1px solid #d2691e;
+    background-color: #ffecdd;
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    margin-left: 130px;
+    padding: 15px;
 }
+.divTwo h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+}
+.mwhTxt > * {
+    margin-block-start: 20px;
+}
+.mwhTxt ul {
+    display: flex;
+    justify-content: center;
+}
+.peek {
+    color: royalblue;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+}
+
+/* ------------------------------------------- */
 .divThree {
     border: solid hotpink;
     background-color: hotpink;
@@ -64,4 +91,11 @@
 /* imgs */
 .gucciImg, .spaceImg {
     width: 500px;
+}
+.zenogre {
+    width: 400px;
+    margin-left: 200px;
+}
+.miniLogo {
+    width: 40px;
 }
