@@ -5,19 +5,39 @@ font-family: 'Shrikhand', cursive; */
 
 #footerLink {
     border: solid chartreuse;
-    height: 300px;
+    height: 200px;
     background-color: #f0ffff;
+    padding-top: 20px;
 }
 .footHeader {
     font-family: 'Shrikhand', cursive;
-    font-size: 40px;
+    font-size: 60px;
 }
-/* .mailLink {
+.mailLink {
+    margin-top: 15px;
     display: flex;
-} */
+    justify-content: space-around;
+}
 .mailLeft {
-    border: solid yellow;
+    /* border: solid yellow; */
     display: flex;
     gap: 5px;
     font-size: 35px;
 }
+.mailRight{
+    /* border: solid yellowgreen; */
+    display: flex;
+    font-size: 35px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.mailRight a {
+    text-decoration: none;
+}
+.linkLink, .mailRight a:hover {
+    color: #4169e1;
+}
+
