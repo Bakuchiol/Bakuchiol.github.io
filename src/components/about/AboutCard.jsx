@@ -19,11 +19,12 @@ function AboutCard() {
                 my goal is to craft visually appealing, user-friendly websites that 
                 provide a seamless browsing experience.
             </p>
-            <br />
-            <p>In my leisure time, I enjoy playing video games like this <a href='https://www.google.com/' target='_blank' rel='noreferrer'>one where I made a fan website</a>.</p>
+            {/* <br />
+            <p>In my leisure time, I enjoy playing video games.</p> */}
           </div>
         </div>
         </Draggable>
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzRuenFkODZ4eW1jaHQ4YWV2ODBkanJ4MHloeWowcXVndTFuYThyZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZefIoePm93MwXpoYxz/giphy-downsized-medium.gif" alt="" className='gifSize'/>
       </div>
     </div>
   )

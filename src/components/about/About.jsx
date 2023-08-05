@@ -66,6 +66,7 @@ function About() {
       </div>
       <div className="rightWrap">
         <div className='aboutLinks'>
+          <h3>Thanks for visiting ;)</h3>
           <p id='aboutTitle'>Let's create something great together!</p>
           <p>TO DO: EMPTY SPACE/ IMG?</p>
           <div className='aboutLinkList'>

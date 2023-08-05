@@ -1,10 +1,23 @@
+#selectCard h1 {
+    border-radius: 18px;
+    font-size: clamp(3rem, 12vw, 12vw);
+    /* padding-left: 30px; */
+    /* text-align: left; */
+    color: #ffecdd;
+    background-color: #f93700;
+    margin: 40px 30px;
+}
 #selectCard {
-    border: solid greenyellow;
-    height: 100vh;
-    text-align: left;
+    border: 5px solid slateblue;
+    background-image: url('../../images/portfolio.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200vh;
 }
 #divTest {
-    margin: solid red;
+    border: solid red;
+    display: flex;
+    justify-content: flex-end;
 }
 .divOne {
     border: solid green;
@@ -18,12 +31,24 @@
     background-color: red;
     height: 200px;
     width: 200px;
-    position: absolute;
+    /* position: relative; */
+    margin-right: 700px;
 }
 .divThree {
     border: solid hotpink;
     background-color: hotpink;
     height: 200px;
     width: 200px;
-    position: absolute;
+    position: relative;
+}
+.selectPara{
+    height: 80vh;
+    border: dotted blue;
+}
+/* ------------------ */
+.testyPara {
+    height: 90vh;
+}
+.sandImg {
+    width: 200px;
 }

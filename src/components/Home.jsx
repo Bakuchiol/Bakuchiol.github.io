@@ -31,7 +31,6 @@ function Home() {
       </div>
       <div id='homeWrapper'>
         <h3>nice to meet you</h3>
-        <h3>thanks for visiting ;)</h3>
       </div>
     </div>
   )

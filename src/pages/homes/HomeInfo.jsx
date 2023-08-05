@@ -49,10 +49,12 @@ function HomeInfo() {
       <div className="home">
         <Home />
       </div>
+      <br />
   {/* ----------------------------------------------------------------- */}
-      
+      <div ref={about} className="about">
+          <AboutCard />
+      </div>
   {/* ----------------------------------------------------------------- */}
-  {/* <video src={spaceBattle} autoPlay loop muted /> */}
       <div ref={project} className="projects">
         <Selected />
       </div>
@@ -64,9 +66,7 @@ function HomeInfo() {
           <SpaceTxt />
           <Word />
           <SpaceTxt />
-      <div ref={about} className="about">
-          <AboutCard />
-      </div>
+      
       <div ref={contact} className="contact">
           <About />
       </div>
