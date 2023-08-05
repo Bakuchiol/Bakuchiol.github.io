@@ -8,7 +8,6 @@ const resume = 'http://localhost:3000/Resume.pdf'
 function About() {
   // useRef
   const form = useRef()
-
   const sendEmail = () => {
     
   }
@@ -73,7 +72,7 @@ function About() {
             <ul>
               <li><a href='https://www.linkedin.com/in/lynette-anne-cargo/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
               <li><a href='https://github.com/Bakuchiol' target='_blank' rel='noreferrer'>GitHub</a></li>
-              <li className='linkLink' onClick={()=>{downloadCV(resume)}}>Download Resume</li>
+              <li className='linkLink' onClick={()=>{downloadCV(resume)}}><a href={resume} target='_blank' rel='noreferrer'>Download Resume</a></li>
             </ul>
           </div>
         </div>
