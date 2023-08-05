@@ -1,32 +1,41 @@
+#selectCard {
+    border: 5px solid slateblue;
+    height: 90vh;
+}
 #selectCard h1 {
     border-radius: 18px;
     font-size: clamp(3rem, 12vw, 12vw);
-    /* padding-left: 30px; */
-    /* text-align: left; */
     color: #ffecdd;
     background-color: #f93700;
     margin: 40px 30px;
 }
-/* #selectCard {
-    border: 5px solid slateblue;
-    background-image: url('../../images/portfolio.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
 #divTest {
     border: solid red;
     padding-top: 50px;
     display: flex;
-    height: 500px;
-    /* justify-content: flex-end; */
+    align-items: center;
+}
+.gucci {
+    margin: 0 100px;
 }
 .divOne {
     border: solid green;
-    background-color: green;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 600px;
     position: relative;
+    padding: 20px;
 }
+.divOne > p, ul {
+    margin-block-start: 20px;
+}
+.divOne h3 {
+    font-size: 40px;
+}
+.divOne ul {
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------------------- */
 .divTwo {
     border: solid red;
     background-color: red;

@@ -3,7 +3,6 @@ import './homeStyle.css'
 import Home from '../../components/Home'
 import Projects from '../../components/projects/Projects'
 import Test from '../../components/Test'
-// import Footer from '../../components/Footer'
 import Gucci from '../../components/Gucci'
 import Word from '../../components/projects/Word'
 import AboutCard from '../../components/about/AboutCard'
@@ -53,12 +52,11 @@ function HomeInfo() {
       </div>
         <Gucci />
         <Word />
-          
-          <Projects />
-          <Test />
-      
+        <Projects />
+        <Test />
+  {/* ----------------------------------------------------------------- */}
       <div ref={contact} className="contact">
-          <FooterLinks />
+        <FooterLinks />
       </div>
     </div>
   )
