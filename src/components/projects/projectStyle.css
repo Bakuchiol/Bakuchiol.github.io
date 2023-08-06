@@ -40,6 +40,24 @@
     margin: 70px 70px 0 0;
     z-index: 2;
 }
-.spaceTxt {
-
+.spaceDiv h3 {
+    font-size: 40px;
+}
+.spaceTxt > * {
+    margin-block-start: 20px;
+}
+.spaceTxt ul {
+    display: flex;
+    justify-content: center;
+}
+/* word */
+.divThree h3 {
+    font-size: 40px;
+}
+.wordTxt > * {
+    margin-block-start: 20px;
+}
+.wordTxt ul {
+    display: flex;
+    justify-content: center;
 }

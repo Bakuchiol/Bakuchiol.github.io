@@ -13,9 +13,17 @@ function Projects() {
         <div className="spaceDrag">
         <Draggable>
         <div className="spaceDiv">
-          <div className="spaceTxt">
             <h3>Console Wars</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officia veniam maiores rerum ut. Voluptatibus.</p>
+          <div className="spaceTxt">
+            <p>
+              You duel against each alien battleship in order to protect the earth, a trial that begins with consoles and ends in the console.
+              <br />
+              The main challenge for this project was being able to iterate over an array to simulate a turn base game.
+            </p>
+            <ul>
+                <li>Visit the site ↗</li>
+                <li><a href='https://github.com/Bakuchiol/SpaceGame' target='_blank' rel='noreferrer'>See the code <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" className='github'/></a></li>
+              </ul>
           </div>
         </div>
         </Draggable>
