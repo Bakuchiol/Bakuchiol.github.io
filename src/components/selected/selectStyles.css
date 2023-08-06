@@ -36,6 +36,7 @@ font-family: 'Shrikhand', cursive; */
     margin-block-start: 20px;
 }
 .divOne h3 {
+    margin-top: -20px;
     font-size: 40px;
 }
 .divOne ul {

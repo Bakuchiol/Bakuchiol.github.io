@@ -20,8 +20,12 @@ function Selected() {
             <div className="divOne">
               <h3>GUCCI</h3>
               <p>The assignment was to recreate a mockup of an existing site in order to practice wire-framing, containerization, as well as toggles and keyframes.</p>
-              <p>I chose the Gucci website for its clean aesthetic where I learned that clean does not always mean easy.</p>
+              <p>I chose the Gucci website for its clean aesthetic where I learned that clean does not always mean easy.
+                 Used toggles to view hidden gifs and pictures throughout the page 
+                 and used keyframes to make certain elements animate.
+              </p>
               <ul>
+                <li><Link to='/Gucci-MockUp'>View Preview ↗</Link></li>
                 <li><a href='https://github.com/Bakuchiol/FunctionMockUp' target='_blank' rel='noreferrer'>See the code <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" className='github'/></a></li>
               </ul>
             </div>
