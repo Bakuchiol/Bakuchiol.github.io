@@ -29,14 +29,14 @@ function FooterLinks() {
 
   return (
     <div id='footerLink'>
-      <div className="footHeader">Thanks for visiting!</div>
+      <div className="footHeader">Thanks for visiting <span>!</span></div>
       <div className="mailLink">
         {/*  */}
         <div className='mailLeft'>
           Let's start a project together.
           <br />
           <Mail email='lynettecargo@gmail.com' subject='Hello' body='Hey there!'>
-            Get in touch.
+            <span>Get in touch.</span>
           </Mail>
           {/* <a href='mailto:lynettecargo@gmail.com' subject='Hello' body='Hey there!'>lynettecargo@gmail.com</a> */}
         </div>

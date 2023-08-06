@@ -5,13 +5,20 @@ font-family: 'Shrikhand', cursive; */
 
 #footerLink {
     border: solid chartreuse;
-    height: 200px;
-    background-color: #f0ffff;
-    padding-top: 20px;
+    height: 260px;
+    background-color: #4169e1;
+    padding-top: 30px;
+    color: #ffecdd;
 }
 .footHeader {
+    border: solid blue;
     font-family: 'Shrikhand', cursive;
-    font-size: 60px;
+    font-size: 70px;
+    margin: 5px 0 10px 0;
+}
+.footHeader span {
+    font-family: 'Shrikhand', cursive;
+    color: #f93700;
 }
 .mailLink {
     margin-top: 15px;
@@ -29,15 +36,27 @@ font-family: 'Shrikhand', cursive; */
     display: flex;
     font-size: 35px;
 }
+span {
+    color: #ffecdd;
+}
+span:hover {
+    color: #ffe15a;
+    font-weight: 700;
+}
 ul{
     display: flex;
     list-style: none;
     gap: 50px;
 }
+.mailRight {
+    /* border: solid white; */
+    margin-top: -20px;
+}
 .mailRight a {
     text-decoration: none;
+    color: #ffecdd;
 }
 .linkLink, .mailRight a:hover {
-    color: #4169e1;
+    color: #f93700;
 }
 
