@@ -10,6 +10,7 @@ function NavBar() {
         <ul className='navUl'>
             <li><Link>Projects</Link></li>
             <li><Link to='/about'>About</Link></li>
+            <li>TESTING TO SEE IF GIT IS FIXED</li>
         </ul>
       </div>
     </div>
