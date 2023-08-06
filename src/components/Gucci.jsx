@@ -30,7 +30,8 @@ function Gucci() {
             </Draggable>
             
           <div className="mhwGif">
-            <img src="https://media0.giphy.com/media/cWZx38y3V92KsLReZz/giphy.gif" alt="mhw" className='zenogre'/>
+            <img src="https://giffiles.alphacoders.com/132/13273.gif" alt="mhw" className='zenogre'/>
+            {/* <img src="https://media0.giphy.com/media/cWZx38y3V92KsLReZz/giphy.gif" alt="mhw" className='zenogre'/> */}
           </div>
         </div>
       </Parallax>

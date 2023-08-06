@@ -18,3 +18,28 @@
     display: flex;
     justify-content: space-around;
 }
+/* --------------------------------- */
+#spaceWrap {
+    border: 2px solid green;
+    height: 50vh;
+}
+.spacePara {
+    height: 50vh;
+}
+.spaceDrag {
+    display: flex;
+    justify-content: flex-end;
+}
+.spaceDiv {
+    border: 1px solid #0f49ac;
+    background-color: #ffecdd;
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    padding: 15px;
+    margin: 70px 70px 0 0;
+    z-index: 2;
+}
+.spaceTxt {
+
+}
