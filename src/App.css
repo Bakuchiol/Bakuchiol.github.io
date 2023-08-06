@@ -213,19 +213,28 @@ h3 {
     margin-top: -30px;
     padding: 0 10px;
   }
-  /* test drag */
-#testDrag {
-  border: solid lime;
-  background-size: 200px 150px;
-  width: 200px;
-  height: 150px;
-  margin-top: 230px;
-  right: 130px;
-}
-#testDrag > p {
-  border: solid hotpink;
-  top: -20px;
-  left: 10px;
-}
-  /*  */
+  /* BEAR */
+  #testDrag {
+    border: solid lime;
+    background-size: 200px 150px;
+    width: 200px;
+    height: 150px;
+    margin-top: 230px;
+    right: 130px;
+  }
+  #testDrag > p {
+    border: solid hotpink;
+    top: -20px;
+    left: 10px;
+  }
+  /* MONSTER HUNTER - GUCCI COMPONENT */
+  #testWrap {
+    border: solid hotpink;
+    height: 83vh;
+  }
+  .testPara {
+    border: solid green;
+    height: 75vh;
+    position: relative;
+  }
 }

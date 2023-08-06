@@ -1,15 +1,16 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
 import { Link } from 'react-router-dom'
+import Draggable from 'react-draggable'
 
 import mhw from '../images/mhw2.png'
-import Draggable from 'react-draggable'
 
 function Gucci() {
   return (
     <div id='testWrap'>
-      <Parallax className='=testPara' bgImage={mhw} strength={200}>
+      <Parallax className='testPara' bgImage={mhw} strength={200}>
         <div id='divTest'>
+            <div className="mhwMobile"></div>
           <Draggable>
           <div className="divTwo">
             <p className='peek'>*peek inside*</p>
