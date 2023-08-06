@@ -11,7 +11,7 @@
     align-items: center;
     padding: 0 70px 0 40px;
     cursor: default;
-  }
+}
 .navBox {
     /* border: solid fuchsia; */
     /* width: 100px; */
@@ -42,4 +42,18 @@
     font-style: italic;
     color: #4169e1;
     cursor: default;
+}
+/* ------------------------------- */
+@media (min-width: 280px) and (max-width: 844px) {
+    #navBar {
+        border: solid green;
+        height: 70px;
+    }
+    .navBox {
+        border: solid fuchsia;
+        margin: 30px -50px 0 0;
+    }
+    .navUl {
+        font-size: 20px;
+    }
 }

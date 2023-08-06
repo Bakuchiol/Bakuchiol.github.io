@@ -24,10 +24,6 @@ function Home() {
 
       <div className="homeWrapTxt">
         <h1 className='homeTitle'>Hello,</h1>
-        {/* <p className='homeMe'>I'm Lynette Cargo</p>
-        <p className='homeSub'>
-          Web Developer, UX/UI Designer
-        </p> */}
       </div>
       <div id='homeWrapper'>
         <h3>nice to meet you!</h3>
