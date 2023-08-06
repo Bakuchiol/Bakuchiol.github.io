@@ -111,3 +111,31 @@ font-family: 'Shrikhand', cursive; */
 .miniLogo {
     width: 40px;
 }
+/* --------------------------------------------- */
+@media (min-width: 280px) and (max-width: 844px) {
+    #selectCard {
+        border: 5px solid slateblue;
+        height: 70vh;
+    }
+    #selectCard h1 {
+        border-radius: 18px;
+        color: #ffecdd;
+    }
+    #divTest {
+        border: solid red;
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+    }
+    .gucci {
+        margin: 20px;
+    }
+    .gucciImg {
+        width: 350px;
+    }
+    .divOne {
+        border: 1px solid green;
+        height: 350px;
+        width: 350px;
+    }
+}
