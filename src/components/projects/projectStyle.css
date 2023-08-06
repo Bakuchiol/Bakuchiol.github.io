@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #projectWrapper {
-    border:solid orange;
+    /* border:solid orange; */
     display: flex;
     justify-content: space-around;
     padding-top: 60px;
@@ -20,7 +20,7 @@
 }
 /* --------------------------------- */
 #spaceWrap {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 50vh;
 }
 .spacePara {

@@ -1,6 +1,7 @@
 import React from 'react'
 import './projectStyle.css'
 import { Parallax } from 'react-parallax'
+import { Link } from 'react-router-dom'
 import './projectStyle.css'
 
 import space from '../../images/space.png'
@@ -21,9 +22,9 @@ function Projects() {
               The main challenge for this project was being able to iterate over an array to simulate a turn base game.
             </p>
             <ul>
-                <li>Visit the site ↗</li>
-                <li><a href='https://github.com/Bakuchiol/SpaceGame' target='_blank' rel='noreferrer'>See the code <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" className='github'/></a></li>
-              </ul>
+              <li><Link to='/Space-Battle'>View Preview ↗</Link></li>
+              <li><a href='https://github.com/Bakuchiol/SpaceGame' target='_blank' rel='noreferrer'>See the code <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" className='github'/></a></li>
+            </ul>
           </div>
         </div>
         </Draggable>

@@ -4,14 +4,14 @@ font-family: 'GFS Neohellenic', sans-serif;
 font-family: 'Shrikhand', cursive; */
 
 #footerLink {
-    border: solid chartreuse;
+    /* border: solid chartreuse; */
     height: 260px;
     background-color: #4169e1;
     padding-top: 30px;
     color: #ffecdd;
 }
 .footHeader {
-    border: solid blue;
+    /* border: solid blue; */
     font-family: 'Shrikhand', cursive;
     font-size: 70px;
     margin: 5px 0 10px 0;

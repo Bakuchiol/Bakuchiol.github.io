@@ -146,7 +146,7 @@ h3 {
 /* ----------------------------------------------------- */
 /* TEST */
 #testWrap {
-  border: solid hotpink;
+  /* border: solid hotpink; */
   padding-top: 100px;
   height: 63vh;
 }
@@ -157,7 +157,7 @@ h3 {
 /* --------------------------------------------------------- */
 /* text */
 #projDescription {
-  border: solid teal;
+  /* border: solid teal; */
   height: 175px;
   margin-top: 40px;
 }
@@ -170,3 +170,12 @@ h3 {
 .github {
   width: 18px;
 }
+/* ---------------------------------------- */
+/* PROJECT PAGE - SPACE BATTLE */
+.spaceImg1 {
+  width: 500px;
+}
+.spaceImg2 {
+  width: 900px;
+}
+/* ---------------------------------------- */
