@@ -5,13 +5,16 @@
 }
 #projectWrapper {
     border:solid orange;
-}
-.projPara {
-    height: 80vh;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
     padding-top: 60px;
 }
-/* text */
-.github {
-    width: 18px;
+.projPara {
+    height: 55vh;
+    position: relative;
+}
+.wordWrap {
+    /* border: solid aliceblue; */
+    display: flex;
+    justify-content: space-around;
 }

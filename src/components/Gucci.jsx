@@ -18,7 +18,7 @@ function Gucci() {
               <p>
                 A fan made website using the <a href='https://docs.mhw-db.com/' target='_blank' rel='noreferrer'>Monster Hunter World API</a>.
                 <br />
-                The site is for looking up the in-game monster information for Monster Hunter World, with the goal of aiding players in understanding and improving their gameplay experience.
+                The site is for looking up in-game monster information for Monster Hunter World, with the goal of aiding players in understanding and improving their gameplay experience.
               </p>
               <p>Assignment on making a React app incorporating an API.</p>
               <ul>

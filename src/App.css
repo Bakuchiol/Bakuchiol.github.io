@@ -12,12 +12,8 @@ font-family: 'Shrikhand', cursive; */
   font-family: 'GFS Neohellenic', sans-serif;;
 }
 body {
-  /* background-color: rgb(235, 225, 202); */
-  /* background-color: #fbfbfb; */
   background-color: #ffecdd;
   background-image: url('/public/noise.png');
-  /* background-image: url('./images/stCatherine.jpg'); */
-  /* background-color: #1c1b1b; */
   background-position: 50% 50%;
   background-size: 300px;
   /* background-position: 90% 10%; */
@@ -169,4 +165,8 @@ h3 {
   height: 33vh;
   background-color: #f5f5f5;
   color: black;
+}
+/*  */
+.github {
+  width: 18px;
 }
