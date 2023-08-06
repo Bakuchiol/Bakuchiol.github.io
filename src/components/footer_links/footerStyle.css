@@ -60,3 +60,40 @@ ul{
     color: #f93700;
 }
 
+/* ------------------------------------------ */
+/* media query footer links */
+@media (min-width: 280px) and (max-width: 844px) {
+    #footerLink {
+        /* border: solid chartreuse; */
+        height: 240px;
+        padding-top: 0;
+    }
+    .footHeader {
+        /* border: solid blue; */
+        font-size: 50px;
+    }
+    .mailLink {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mailLeft {
+        border: 1px #f5f5f5;
+        border-style: solid none solid none;
+        display: flex;
+        gap: 5px;
+        font-size: 23px;
+        padding: 5px;
+    }
+    .mailLeft span {
+        font-weight: 900;
+    }
+    .mailRight{
+        border: 1px #f5f5f5;
+        border-style: none none solid none;
+        margin-top: -13px;
+        padding: 0 0 5px 5px;
+        font-size: 22px;
+        font-weight: 900;
+    }
+}
