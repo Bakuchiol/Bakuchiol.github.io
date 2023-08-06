@@ -46,11 +46,11 @@
 /* ------------------------------- */
 @media (min-width: 280px) and (max-width: 844px) {
     #navBar {
-        border: solid green;
+        /* border: solid green; */
         height: 70px;
     }
     .navBox {
-        border: solid fuchsia;
+        /* border: solid fuchsia; */
         margin: 30px -50px 0 0;
     }
     .navUl {

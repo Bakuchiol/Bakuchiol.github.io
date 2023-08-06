@@ -68,11 +68,11 @@
 /* word */
 @media (min-width: 280px) and (max-width: 844px) {
     #projectWrapper {
-        border:solid orange;
+        /* border:solid orange; */
         height: 60vh;
     }
     .projPara {
-        border: solid blue;
+        /* border: solid blue; */
         height: 65vh;
         position: relative;
     }
@@ -81,7 +81,7 @@
     }
     /* SPACE GAME - PROJECTS COMPONENT */
     #spaceWrap {
-        border: 2px solid green;
+        /* border: 2px solid green; */
         height: 60vh;
     }
     .spacePara {
