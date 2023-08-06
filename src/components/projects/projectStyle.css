@@ -30,6 +30,9 @@
     display: flex;
     justify-content: flex-end;
 }
+.spaceMobile{
+    display: none;
+}
 .spaceDiv {
     border: 1px solid #0f49ac;
     background-color: #ffecdd;
@@ -70,10 +73,32 @@
     }
     .projPara {
         border: solid blue;
-        height: 60vh;
+        height: 65vh;
         position: relative;
     }
     .wordWrap {
         flex-direction: column;
+    }
+    /* SPACE GAME - PROJECTS COMPONENT */
+    #spaceWrap {
+        border: 2px solid green;
+        height: 60vh;
+    }
+    .spacePara {
+        height: 70vh;
+    }
+    .spaceMobile {
+        display: block;
+        background-image: url('../../images/space1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+    }
+    .spaceDiv {
+        height: 265px;
+        width: 350px;
+        padding: 15px;
+        margin: 330px 20px 0 0;
     }
 }

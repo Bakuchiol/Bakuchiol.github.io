@@ -27,7 +27,7 @@ function Footer() {
 
   return (
     <div id='footerWrapper'>
-      <h4>Feeling Bored?
+      <h4>Do this after visiting!
         <button onClick={randomClick}>Click Me</button></h4>
         <div id='activityX'>✨{bored.activity}✨</div>
         <div><a href="https://www.boredapi.com/" className='api' target='_blank' rel='noreferrer'>boredApi</a></div>

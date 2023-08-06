@@ -65,8 +65,8 @@ ul{
 @media (min-width: 280px) and (max-width: 844px) {
     #footerLink {
         /* border: solid chartreuse; */
-        height: 240px;
-        padding-top: 0;
+        height: 440px;
+        padding-top: 140px;
     }
     .footHeader {
         /* border: solid blue; */
@@ -83,7 +83,7 @@ ul{
         display: flex;
         gap: 5px;
         font-size: 23px;
-        padding: 5px;
+        padding: 8px;
     }
     .mailLeft span {
         font-weight: 900;

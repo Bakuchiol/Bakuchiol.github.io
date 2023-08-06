@@ -12,6 +12,7 @@ function Projects() {
     <div id='spaceWrap'>
       <Parallax className='spacePara' bgImage={space} strength={200}>
         <div className="spaceDrag">
+          <div className="spaceMobile"></div>
         <Draggable>
         <div className="spaceDiv">
             <h3>Console Wars</h3>
