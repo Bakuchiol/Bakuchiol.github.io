@@ -135,3 +135,36 @@ input {
 .gifSize {
     width: 250px;
 }
+
+/* ----------------------------------- */
+@media (min-width: 280px) and (max-width: 844px) {
+    #aboutCard {
+        border: solid red;
+        height: 420px;
+        width: 500px;
+        margin-top: 130px;
+        padding: 30px 0;
+    }
+    .aboutCard {
+        border: solid blueviolet;
+        width: 500px;
+    }
+    .aboutMe {
+        /* border:solid green; */
+        border-radius: 20px;
+        background-color: royalblue;
+        width: 250px;
+        margin: 20px;
+    }
+    .aboutTextBox {
+        border: solid fuchsia;
+        width: 350px;
+        padding: 30px;
+        font-size: 18px;
+        position: absolute;
+        left: 25px;
+        top: -10px;
+    }
+    /* about footer */
+    
+}

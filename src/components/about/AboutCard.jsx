@@ -12,7 +12,7 @@ function AboutCard() {
         <Draggable>
         <div className='centerText'>
           <div className='aboutTextBox'>
-            <p>I am a creative developer with a passion for UX/UI design. 
+            <p>I am Lynette Cargo, a creative developer with a passion for UX/UI design. 
                 As someone who's always been interested in tech, I took the plunge 
                 and enrolled myself into an immersive and rigorous Software Engineering program at Per Scholas. 
                 Going from no coding knowledge to making mockups and apps, 
