@@ -61,3 +61,19 @@
     display: flex;
     justify-content: center;
 }
+/* ------------------------------------ MEDIA QUERY */
+/* word */
+@media (min-width: 280px) and (max-width: 844px) {
+    #projectWrapper {
+        border:solid orange;
+        height: 60vh;
+    }
+    .projPara {
+        border: solid blue;
+        height: 60vh;
+        position: relative;
+    }
+    .wordWrap {
+        flex-direction: column;
+    }
+}

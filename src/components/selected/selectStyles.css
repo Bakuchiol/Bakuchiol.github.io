@@ -118,7 +118,7 @@ font-family: 'Shrikhand', cursive; */
 @media (min-width: 280px) and (max-width: 844px) {
     #selectCard {
         border: 5px solid slateblue;
-        height: 70vh;
+        height: 80vh;
     }
     #selectCard h1 {
         border-radius: 18px;
@@ -160,5 +160,22 @@ font-family: 'Shrikhand', cursive; */
         height: 500px;
         width: 1100px;
         margin: -50px 490px 0 0;
+    }
+    /* WORD COMPONENT*/
+    .wordDiv {
+        border: solid orange;
+        background-image: url('../../images/word.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 385px;
+        height: 220px;
+    }
+    .divThree {
+        border: solid hotpink;
+        height: 200px;
+        width: 360px;
+        margin: 12px;
+        padding: 5px;
+        position: relative;
     }
 }
