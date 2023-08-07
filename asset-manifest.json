@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2fdb9940.css",
-    "main.js": "/Portfolio/static/js/main.8313d8ce.js",
+    "main.css": "/Portfolio/static/css/main.9b829fe3.css",
+    "main.js": "/Portfolio/static/js/main.fe52bd87.js",
     "static/media/gucci.png": "/Portfolio/static/media/gucci.6990e29b2b5313fb6265.png",
     "static/media/gucci1.png": "/Portfolio/static/media/gucci1.45d2c5250989babd41f4.png",
     "static/media/gucci2.png": "/Portfolio/static/media/gucci2.4b31850181aebfa6adc5.png",
@@ -15,11 +15,11 @@
     "static/media/gucciTxt.png": "/Portfolio/static/media/gucciTxt.a41c23f56579b1428e82.png",
     "static/media/noise.png": "/Portfolio/static/media/noise.a26e3fafc8080bbc93a6.png",
     "index.html": "/Portfolio/index.html",
-    "main.2fdb9940.css.map": "/Portfolio/static/css/main.2fdb9940.css.map",
-    "main.8313d8ce.js.map": "/Portfolio/static/js/main.8313d8ce.js.map"
+    "main.9b829fe3.css.map": "/Portfolio/static/css/main.9b829fe3.css.map",
+    "main.fe52bd87.js.map": "/Portfolio/static/js/main.fe52bd87.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fdb9940.css",
-    "static/js/main.8313d8ce.js"
+    "static/css/main.9b829fe3.css",
+    "static/js/main.fe52bd87.js"
   ]
 }
