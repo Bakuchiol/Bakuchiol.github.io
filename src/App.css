@@ -238,3 +238,17 @@ h3 {
     position: relative;
   }
 }
+/* ---------------------------------- */
+/* no page */
+#errorWrapper {
+  margin-top: 200px;
+}
+#errorWrapper h1 {
+  font-size: 50px;
+}
+#errorWrapper p {
+  font-size: 30px;
+}
+#errorWrapper span {
+  color: #f93700;
+}

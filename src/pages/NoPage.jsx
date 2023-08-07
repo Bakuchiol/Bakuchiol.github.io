@@ -5,7 +5,7 @@ function NoPage() {
   return (
     <div id='errorWrapper'>
         <h1> ** ERROR 404: PAGE NOT FOUND **</h1>
-        <p> Go back to the <Link to='/home'><span>home page</span></Link></p>
+        <p> Go back to the <Link to='/'><span>home page</span></Link></p>
 
     </div>
   )
