@@ -10,3 +10,6 @@ Some elements on the page are draggable so have fun and poke around!
 2. react-router-dom
 3. npm draggable
 4. npm parallax
+
+#API
+If you click on the bear gif, a modal will pop out which gives you suggestions on what to do using the boredAPI.
