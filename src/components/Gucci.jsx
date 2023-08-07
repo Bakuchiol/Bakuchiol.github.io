@@ -1,6 +1,5 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import { Link } from 'react-router-dom'
 import Draggable from 'react-draggable'
 
 import mhw from '../images/mhw2.png'
