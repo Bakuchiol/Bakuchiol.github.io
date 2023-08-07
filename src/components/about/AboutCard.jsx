@@ -1,12 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './aboutStyle.css'
 import Draggable from 'react-draggable'
 
 function AboutCard() {
+  const [changeColor, setChangeColor] = useState('#406df4')
+  const colors = ['#f93700', '#ff00ff', '#adff2f', '#ffc0cb', '#000']
+
+  const randomize = () => {
+    const randomColors = colors[Math.floor(Math.random() * colors.length)]
+    setChangeColor(randomColors)
+  }
+
+  useEffect (() => {
+    let div = document.querySelector('.aboutMe')
+    div.style.backgroundColor = changeColor
+  })
+
   return (
     <div id='aboutCard'>
       <div className="aboutCard">
-        <div className='aboutMe'>
+        <p className='randomColor'>*click me*</p>
+        <div className='aboutMe'
+              onClick={randomize}>
           <p>About Me</p>
         </div>
         <Draggable>
@@ -24,7 +39,15 @@ function AboutCard() {
           </div>
         </div>
         </Draggable>
-            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzRuenFkODZ4eW1jaHQ4YWV2ODBkanJ4MHloeWowcXVndTFuYThyZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZefIoePm93MwXpoYxz/giphy-downsized-medium.gif" alt="" className='gifSize'/>
+        <div className="gifs">
+          <Draggable>
+            <div className='gifSize'></div>
+          </Draggable>
+          <Draggable>
+            <div className='gifSize2'></div>
+          </Draggable>
+          <div className='letsWork'>Let's work together!</div>
+        </div>
       </div>
     </div>
   )

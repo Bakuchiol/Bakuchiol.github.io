@@ -51,9 +51,15 @@
     }
     .navBox {
         /* border: solid fuchsia; */
-        margin: 30px -50px 0 0;
+        margin: 50px -50px 0 0;
     }
     .navUl {
         font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .home {
+        margin-top: -30px;
     }
 }
