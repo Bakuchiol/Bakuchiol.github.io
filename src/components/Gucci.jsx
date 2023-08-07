@@ -22,7 +22,7 @@ function Gucci() {
                 The site is for looking up in-game monster information for Monster Hunter World, with the goal of aiding players in understanding and improving their gameplay experience.
               </p>
               <ul>
-                <li><Link>Visit the site ↗</Link></li>
+                <li><a href="https://bakuchiol.github.io/home">Visit the site ↗</a></li>
                 <li><a href='https://github.com/Bakuchiol/MonsterHunterWorld' target='_blank' rel='noreferrer'>See the code <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" className='github'/></a></li>
               </ul>
             </div>    
