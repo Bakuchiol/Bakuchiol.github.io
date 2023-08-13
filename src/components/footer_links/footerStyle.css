@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400&family=Shrikhand&display=swap');
+/* font-family: 'GFS Didot', serif;
+font-family: 'GFS Neohellenic', sans-serif;
+font-family: 'Shrikhand', cursive; */
+
+#footerLink {
+    /* border: solid chartreuse; */
+    height: 260px;
+    background-color: #4169e1;
+    padding-top: 30px;
+    color: #ffecdd;
+}
+.footHeader {
+    /* border: solid blue; */
+    font-family: 'Shrikhand', cursive;
+    font-size: 70px;
+    margin: 5px 0 10px 0;
+}
+.footHeader span {
+    font-family: 'Shrikhand', cursive;
+    color: #f93700;
+}
+.mailLink {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.mailLeft {
+    /* border: solid yellow; */
+    display: flex;
+    gap: 5px;
+    font-size: 35px;
+}
+.mailRight{
+    /* border: solid yellowgreen; */
+    display: flex;
+    font-size: 35px;
+}
+span {
+    color: #ffecdd;
+}
+span:hover {
+    color: #ffe15a;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.mailRight {
+    /* border: solid white; */
+    margin-top: -20px;
+}
+.mailRight a {
+    text-decoration: none;
+    color: #ffecdd;
+}
+.linkLink, .mailRight a:hover {
+    color: #f93700;
+}
+
+/* ------------------------------------------ */
+/* media query footer links */
+@media (min-width: 280px) and (max-width: 844px) {
+    #footerLink {
+        /* border: solid chartreuse; */
+        height: 440px;
+        padding-top: 140px;
+    }
+    .footHeader {
+        /* border: solid blue; */
+        font-size: 50px;
+    }
+    .mailLink {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mailLeft {
+        border: 1px #f5f5f5;
+        border-style: solid none solid none;
+        display: flex;
+        gap: 5px;
+        font-size: 23px;
+        padding: 8px;
+    }
+    .mailLeft span {
+        font-weight: 900;
+    }
+    .mailRight{
+        border: 1px #f5f5f5;
+        border-style: none none solid none;
+        margin-top: -13px;
+        padding: 0 0 5px 5px;
+        font-size: 22px;
+        font-weight: 900;
+    }
+}

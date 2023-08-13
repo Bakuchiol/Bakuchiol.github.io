@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#projectWrapper {
+    /* border:solid orange; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.projPara {
+    height: 55vh;
+    position: relative;
+}
+.wordWrap {
+    /* border: solid aliceblue; */
+    display: flex;
+    justify-content: space-around;
+}
+/* --------------------------------- */
+#spaceWrap {
+    /* border: 2px solid green; */
+    height: 50vh;
+}
+.spacePara {
+    height: 50vh;
+}
+.spaceDrag {
+    display: flex;
+    justify-content: flex-end;
+}
+.spaceMobile{
+    display: none;
+}
+.spaceDiv {
+    border: 1px solid #0f49ac;
+    background-color: #ffecdd;
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    padding: 15px;
+    margin: 70px 70px 0 0;
+    z-index: 2;
+}
+.spaceDiv h3 {
+    font-size: 40px;
+}
+.spaceTxt > * {
+    margin-block-start: 20px;
+}
+.spaceTxt ul {
+    display: flex;
+    justify-content: center;
+}
+/* word */
+.divThree h3 {
+    font-size: 40px;
+}
+.wordTxt > * {
+    margin-block-start: 20px;
+}
+.wordTxt ul {
+    display: flex;
+    justify-content: center;
+}
+/* ------------------------------------ MEDIA QUERY */
+/* word */
+@media (min-width: 280px) and (max-width: 844px) {
+    #projectWrapper {
+        /* border:solid orange; */
+        height: 60vh;
+    }
+    .projPara {
+        /* border: solid blue; */
+        height: 65vh;
+        position: relative;
+    }
+    .wordWrap {
+        flex-direction: column;
+    }
+    /* SPACE GAME - PROJECTS COMPONENT */
+    #spaceWrap {
+        /* border: 2px solid green; */
+        height: 70vh;
+    }
+    .spacePara {
+        height: 84vh;
+    }
+    .spaceMobile {
+        display: block;
+        background-image: url('../../images/space1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 400px;
+        margin-top: 80px;
+        /* margin: 60px 60px 0 0; */
+    }
+    .spaceDiv {
+        height: 265px;
+        width: 350px;
+        padding: 15px;
+        margin: 430px 20px 0 0;
+    }
+}
